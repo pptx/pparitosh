@@ -1,6 +1,6 @@
 # Simple Website Using Github Pages
 Make a simple HTML website and publish it using Github Pages.  
-View example: https://cplmakerlab.github.io/simple-website-template/
+https://pptx.github.io/pparitosh/
 
 ## Setup
 - Create a Github account (if you don't have one yet)
