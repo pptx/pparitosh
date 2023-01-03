@@ -1,0 +1,25 @@
+# jemdoc: menu{menu.jemdoc}{index.html}
+= Parth Paritosh  
+
+~~~
+{}{img_left}{me_r.jpg}{Photo}{180px}{180px}
+PhD Student \n
+[http://maeweb.ucsd.edu Department of Mechanical and Aerospace Engineering] \n
+[https://ucsd.edu University of California, San Diego] \n\n
+*E-mail:* pparitos <at> ucsd <dot> edu \n
+*Office:* Engineering Building Unit (EBU) I, Room 2111 \n
+*Mailing Address:* \n
+Department of Mechanical and Aerospace Engineering \n 
+University of California, San Diego \n 
+9500 Gilman Drive, La Jolla, CA 92093-0411 \n 
+~~~
+
+== Brief Bio 
+
+I am currently pursuing PhD degree in Mechanical and Aerospace Engineering, 
+with advisors [http://nodes.ucsd.edu/sonia/ Sonia Martinez] and [https://natanaso.github.io/ Nikolay Atanasov].
+Prior to this, I received my Master's degree from Purdue University ( [https://www.predictivesciencelab.org/ 1], [https://engineering.purdue.edu/DELP/ 2] ) 
+, and Bachelor's degree from Indian Institute of Technology Guwahati.
+
+== Research 
+I am currently working on distributed estimation in networked systems, and applications to sensor networks.
