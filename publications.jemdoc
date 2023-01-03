@@ -2,7 +2,7 @@
 = Publications 
 
 == Conference Proceedings 
-. Hypothesis Assignment and Partial Likelihood Averaging for Cooperative Estimation \n
+. Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
   2022 IEEE 61st Conference on Decision and Control (CDC) \[[https://ieeexplore.ieee.org/document/9757175 Link]\]
   
@@ -15,6 +15,10 @@
   2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\]
 
 == Journal Articles 
+. Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
+  *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
+  IEEE Control Systems Letters, 2022 \[[https://ieeexplore.ieee.org/document/9757175 Link]\] 
+  
 . Model predictive control under forecast uncertainty for optimal operation of buildings with integrated solar systems \n
   Xiaoqi Liu, *Parth Paritosh*, Nimish M Awalgaonkar, Ilias Bilionis and Panagiota Karava \n
   Solar Energy, 2018 \[[https://www.researchgate.net/profile/Panagiota_Karava2/publication/326929454_Model_predictive_control_under_forecast_uncertainty_for_optimal_operation_of_buildings_with_integrated_solar_systems/links/5bf18d2f92851c6b27c86f31/Model-predictive-control-under-forecast-uncertainty-for-optimal-operation-of-buildings-with-integrated-solar-systems.pdf PDF]\]  
