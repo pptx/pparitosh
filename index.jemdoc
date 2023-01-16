@@ -35,6 +35,6 @@ was accepted to [https://ieeexplore.ieee.org/abstract/document/9757175 IEEE Cont
 # Portability. The (single) jemdoc [http://www.python.org/ Python] file \+ single css file \+ your input file {{&rarr;}} html.
   
 == Teaching
-- Teaching assistant for MAE 242 [Spring 2022]: Prepared homework solutions, created programming assignments, autograders and held office hours.
-- Teaching assistant for MAE 289A [Fall 2021]: Prepared homework solutions, and held office hours.
-- Additional teaching assistant MAE 242 [Fall 2022]: Discussion sessions and coding tutorials for motion planning.
+- Teaching assistant for MAE 242, Spring 2022: Prepared homework solutions, created programming assignments, autograders and held office hours.
+- Teaching assistant for MAE 289A, Fall 2021: Prepared homework solutions, and held office hours.
+- Additional teaching assistant MAE 242, Fall 2022: Discussion sessions and coding tutorials for motion planning.
