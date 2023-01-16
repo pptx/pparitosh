@@ -12,6 +12,7 @@ PhD Candidate \n
 Department of Mechanical and Aerospace Engineering \n 
 University of California, San Diego \n 
 9500 Gilman Drive, La Jolla, CA 92093-0411 \n 
+[https://scholar.google.com/citations?hl=en&user=JiLmoLYAAAAJ Google Scholar]/ [https://www.linkedin.com/in/parthparitosh/ Linkedin]\n
 ~~~
 
 == Brief Bio 
@@ -22,5 +23,18 @@ Prior to this, I received my Master's degree from Purdue University ( [https://w
 , and Bachelor's degree from Indian Institute of Technology Guwahati.
 
 == Research 
-I am currently working on distributed estimation in networked systems, and applications to sensor networks.
-More recently, I am testing variational inference approach towards distributed estimation.
+I am currently working on provably correct distributed estimation in networked systems, and applications to sensor networks.
+More recently, I am testing variational inference approach towards distributed estimation for general applications.
+
+== News
+- Dec 2022: Presented our work on "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks"
+at [https://cdc2022.ieeecss.org/ IEEE CDC 2022]
+- Aug 2022: Our work titled "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks"
+was accepted to [https://ieeexplore.ieee.org/abstract/document/9757175 IEEE Control Systems Letters]
+- Mar 2022: Senate exam with a talk discussing "Scalable and Efficient Bayesian algorithms for Distributed Estimation and Inference"
+# Portability. The (single) jemdoc [http://www.python.org/ Python] file \+ single css file \+ your input file {{&rarr;}} html.
+  
+== Teaching
+- Teaching assistant for MAE 242 [Spring 2022]: Prepared homework solutions, created programming assignments, autograders and held office hours.
+- Teaching assistant for MAE 289A [Fall 2021]: Prepared homework solutions, and held office hours.
+- Additional teaching assistant MAE 242 [Fall 2022]: Discussion sessions and coding tutorials for motion planning.
