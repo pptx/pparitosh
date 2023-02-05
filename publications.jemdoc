@@ -4,7 +4,7 @@
 == Conference Proceedings 
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  2022 IEEE 61st Conference on Decision and Control (CDC) \[[https://ieeexplore.ieee.org/document/9757175 Link]\]
+  2022 IEEE 61st Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://github.com/pptx/time-varying-network-localization Code]\]
   
 . Marginal density averaging for distributed node localization from local edge measurements \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
@@ -17,7 +17,7 @@
 == Journal Articles 
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  IEEE Control Systems Letters, 2022 \[[https://ieeexplore.ieee.org/document/9757175 Link]\] \[[https://codeocean.com/capsule/9955231/tree Code Capsule]\] 
+  IEEE Control Systems Letters, 2022 \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://codeocean.com/capsule/9955231/tree Code Capsule]\] 
   
 . Model predictive control under forecast uncertainty for optimal operation of buildings with integrated solar systems \n
   Xiaoqi Liu, *Parth Paritosh*, Nimish M Awalgaonkar, Ilias Bilionis and Panagiota Karava \n
