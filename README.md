@@ -2,6 +2,9 @@
 Make a simple HTML website and publish it using Github Pages.  
 https://pptx.github.io/pparitosh/
 
+## Reference
+- http://www.mit.edu/~wsshin/jemdoc+mathjax.html
+
 ## Setup
 - Create a Github account (if you don't have one yet)
 - Fork this repository to copy it to your account, i.e. github.com/username/simple-website-template (you can rename it as well)
