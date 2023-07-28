@@ -15,6 +15,9 @@
   2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\]
 
 == Journal Articles 
+. Distributed Variational Inference for Online Supervised Learning (submitted) \n
+  *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \[[https://github.com/pptx/distributed-mapping Code]\]
+  
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
   IEEE Control Systems Letters, 2022 \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://codeocean.com/capsule/9955231/tree Code Capsule]\] 
