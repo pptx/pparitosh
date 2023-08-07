@@ -4,15 +4,15 @@
 == Conference Proceedings 
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  2022 IEEE 61st Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://github.com/pptx/time-varying-network-localization Code]\] \[[./Documents/CDC_2022_PPT.pdf Slides]\]
+  2022 IEEE 61st Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://github.com/pptx/time-varying-network-localization Code]\] \[[./Documents/Slides/CDC_2022_PPT.pdf Slides]\]
   
 . Marginal density averaging for distributed node localization from local edge measurements \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  2020 IEEE 59th Conference on Decision and Control (CDC) \[[https://par.nsf.gov/servlets/purl/10192440 PDF]\] \[[./Documents/CDC_2020_PPT.pdf Slides]\]
+  2020 IEEE 59th Conference on Decision and Control (CDC) \[[https://par.nsf.gov/servlets/purl/10192440 PDF]\] \[[./Documents/Slides/CDC_2020_PPT.pdf Slides]\]
   
 . Hypothesis Assignment and Partial Likelihood Averaging for Cooperative Estimation \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\] \[[./Documents/CDC_2019_PPT.pdf Slides]\]
+  2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\] \[[./Documents/Slides/CDC_2019_PPT.pdf Slides]\]
 
 == Journal Articles 
 . Distributed Variational Inference for Online Supervised Learning (submitted) \n
@@ -20,7 +20,7 @@
   
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  IEEE Control Systems Letters, 2022 \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://codeocean.com/capsule/9955231/tree Code Capsule]\] 
+  IEEE Control Systems Letters, 2022 \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://codeocean.com/capsule/9955231/tree Code Capsule]\] \[[./Documents/Slides/CDC_2022_PPT.pdf Slides]\]
   
 . Model predictive control under forecast uncertainty for optimal operation of buildings with integrated solar systems \n
   Xiaoqi Liu, *Parth Paritosh*, Nimish M Awalgaonkar, Ilias Bilionis and Panagiota Karava \n
