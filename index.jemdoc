@@ -29,6 +29,9 @@ I am currently working on provably correct distributed estimation in networked s
 More recently, I am testing variational inference approach towards distributed estimation for general applications.
 
 == News
+- Sept 2023: Presented a poster on "Distributed Variational Inference for Online Supervised Learning" with a new Turtlebot4 team mapping implementation at [https://sites.uci.edu/scr2023/schedule/ SoCal Robotics Symposium 2023].
+- July 2023: Submitted our work on "Distributed Variational Inference for Online Supervised Learning"
+Read [https://arxiv.org/pdf/2309.02606.pdf here].
 - Dec 2022: Presented our work on "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks"
 at [https://cdc2022.ieeecss.org/ IEEE CDC 2022]
 - Aug 2022: Our work titled "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks"
