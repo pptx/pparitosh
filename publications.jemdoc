@@ -15,8 +15,8 @@
   2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\] \[[./Documents/Slides/CDC_2019_PPT.pdf Slides]\]
 
 == Journal Articles 
-. Marginal Density Estimation in Cooperative Sensor Networks: Analysis and Implementation. (In preparation) \n
-  *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \[[https://arxiv.org/pdf/2309.02606.pdf PDF]\] \[[https://github.com/pptx/distributed-mapping Code]\]
+. Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. (Submitted) \n
+  *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \[[https://arxiv.org/pdf/2312.01227.pdf PDF]\] 
   
 . Distributed Variational Inference for Online Supervised Learning (submitted) \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \[[https://arxiv.org/pdf/2309.02606.pdf PDF]\] \[[https://github.com/pptx/distributed-mapping Code]\]
