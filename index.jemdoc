@@ -19,16 +19,18 @@ Postdoctoral Fellow \n
 
 I received my PhD degree in Engineering Sciences at University of California San Diego, 
 working with advisors [http://nodes.ucsd.edu/sonia/ Sonia Martinez] and [https://natanaso.github.io/ Nikolay Atanasov].
-Prior to this, I received my Master's degree from Purdue University ( [https://www.predictivesciencelab.org/ 1], [https://engineering.purdue.edu/DELP/ 2] ), 
+Prior to this, I received my Master's degree from Purdue University ( [https://www.predictivesciencelab.org/ 1], [https://engineering.purdue.edu/DELP/ 2] ),
 and Bachelor's degree from Indian Institute of Technology Guwahati.
 
 Some of my work with undergraduate students and interns at MURO lab is mentioned [http://muro.ucsd.edu/Blog/blog.html here].
 
 == Research 
-I am currently working on provably correct distributed estimation in networked systems, and applications to sensor networks.
-More recently, I am testing variational inference approach towards distributed estimation for general applications.
+My work aims to address several aspects of provably correct distributed estimation and optimization in networked systems,
+such as accuracy, approximations and privacy.
 
 == News
+- Apr 2024: Joined DEVCOM Army Research Laboratory as a postdoctoral fellow
+- Dec 2023: Defended my thesis titled "Scalable and Efficient Bayesian Algorithms for Distributed Estimation and Inference"
 - Sept 2023: Presented a poster on "Distributed Variational Inference for Online Supervised Learning" with a new Turtlebot4 team mapping implementation at [https://sites.uci.edu/scr2023/schedule/ SoCal Robotics Symposium 2023].
 - July 2023: Submitted our work on "Distributed Variational Inference for Online Supervised Learning"
 Read [https://arxiv.org/pdf/2309.02606.pdf here].
