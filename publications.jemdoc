@@ -2,6 +2,11 @@
 = Publications 
 
 == Conference Proceedings 
+
+. Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition (Submitted) \n
+  *Parth Paritosh* and Lance Kaplan \n
+  2025 IEEE Statistical Signal Processing Workshop
+  
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
   2022 IEEE 61st Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://github.com/pptx/time-varying-network-localization Code]\] \[[./Documents/Slides/CDC_2022_PPT.pdf Slides]\]
@@ -15,11 +20,13 @@
   2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\] \[[./Documents/Slides/CDC_2019_PPT.pdf Slides]\]
 
 == Journal Articles 
-. Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. (Submitted) \n
-  *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \[[https://arxiv.org/pdf/2312.01227.pdf PDF]\] 
+. Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. (Accepted) \n
+  *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
+  IEEE Transactions on Network Science and Engineering, 2025 \[[https://arxiv.org/pdf/2312.01227.pdf arXiv]\] \[[./Documents/Papers/PP-NA-SM-25.pdf PDF]\]
   
-. Distributed Variational Inference for Online Supervised Learning (Submitted) \n
-  *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \[[https://arxiv.org/pdf/2309.02606.pdf PDF]\] \[[https://github.com/pptx/distributed-mapping Code]\]
+. Distributed Variational Inference for Online Supervised Learning (Accepted) \n
+  *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
+  IEEE Transactions on Control of Network Systems, 2025 \[[./Documents/Papers/PP-NA-SM-25-DistVarInf.pdf PDF]\] \[[https://arxiv.org/pdf/2309.02606.pdf arXiv]\] \[[https://github.com/pptx/distributed-mapping Code]\]
   
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
