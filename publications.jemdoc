@@ -3,9 +3,9 @@
 
 == Conference Proceedings 
 
-. The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks (Accepted) \n
+. The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks \n
   Lance Kaplan, James Z. Hare and *Parth Paritosh* \n
-  2025 International Conference on Information Fusion (ICIF)
+  2025 International Conference on Information Fusion (ICIF) \[[https://ieeexplore.ieee.org/document/11124159 Xplore]\]
 
 . Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition \n
   *Parth Paritosh* and Lance Kaplan \n
@@ -24,6 +24,10 @@
   2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\] \[[./Documents/Slides/CDC_2019_PPT.pdf Slides]\]
 
 == Journal Articles 
+. Privacy-Preserving Distributed Maximum Likelihood Estimation via State Decomposition. \n
+  *Parth Paritosh* and Lance Kaplan \n 
+  _Under review_ at IEEE Transactions on Signal Processing
+  
 . Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
   IEEE Transactions on Network Science and Engineering, 2025 \[[https://arxiv.org/pdf/2312.01227.pdf arXiv]\] \[[./Documents/Papers/PP-NA-SM-25.pdf PDF]\] \[[https://ieeexplore.ieee.org/abstract/document/10944430 Xplore]\]
@@ -47,6 +51,9 @@
 # , [https://arxiv.org/abs/1705.03109 arXiv]  
   
 == Thesis
+ . Scalable and Efficient Bayesian Algorithms for Distributed Estimation and Inference \n
+  Doctoral Thesis \[[https://escholarship.org/uc/item/80w0z8nn Link]\] \[[./Documents/ScalableEfficientDistributedEstimation.pdf Slides]\]
+  
 . Gaussian Process Dynamical Models for Designing Multi-Stage Manufacturing Processes \n
-  *Parth Paritosh*
   Master's Thesis \[[https://docs.lib.purdue.edu/dissertations/AAI10288375/ Link]\] \[[./Documents/GPDM_for_multi_stage_manufacturing.pdf Slides]\]
+  
