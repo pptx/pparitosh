@@ -61,33 +61,63 @@ such as accuracy, approximations and privacy.
 </p>
 <h2>News</h2>
 <ul>
-<li><p>Apr 2024: Joined DEVCOM Army Research Laboratory as a postdoctoral fellow
+<li><p>Dec 2025: Attending the IEEE Conference on Decision and Control (CDC) to present our paper &lsquo;&lsquo;Distributed Variational Inference for Online Supervised Learning," published in IEEE Transactions on Control of Network Systems (TCNS).
 </p>
 </li>
-<li><p>Dec 2023: Defended my thesis titled &ldquo;Scalable and Efficient Bayesian Algorithms for Distributed Estimation and Inference&rdquo;
+<li><p>June 2025: Presented our work &lsquo;&lsquo;Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition" at the IEEE Statistical Signal Processing Workshop (SSP 2025).
 </p>
 </li>
-<li><p>Sept 2023: Presented a poster on &ldquo;Distributed Variational Inference for Online Supervised Learning&rdquo; with a new Turtlebot4 team mapping implementation at <a href="https://sites.uci.edu/scr2023/schedule/" target=&ldquo;blank&rdquo;>SoCal Robotics Symposium 2023</a>.
-</p>
-</li>
-<li><p>July 2023: Submitted our work on &ldquo;Distributed Variational Inference for Online Supervised Learning&rdquo;
-Read <a href="https://arxiv.org/pdf/2309.02606.pdf" target=&ldquo;blank&rdquo;>here</a>.
-</p>
-</li>
-<li><p>Dec 2022: Presented our work on &ldquo;Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks&rdquo;
-at <a href="https://cdc2022.ieeecss.org/" target=&ldquo;blank&rdquo;>IEEE CDC 2022</a>
-</p>
-</li>
-<li><p>Aug 2022: Our work titled &ldquo;Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks&rdquo;
-was accepted to <a href="https://ieeexplore.ieee.org/abstract/document/9757175" target=&ldquo;blank&rdquo;>IEEE Control Systems Letters</a>
-</p>
-</li>
-<li><p>Mar 2022: Senate exam with a talk discussing &ldquo;Scalable and Efficient Bayesian algorithms for Distributed Estimation and Inference&rdquo;
-
+<li><p>May 2025: Our paper &lsquo;&lsquo;The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks" was accepted for presentation at the International Conference on Information Fusion (ICIF 2025).
 
 </p>
 </li>
 </ul>
+<button id="toggle-news" style="margin:.25rem 0;">… show more</button>
+<div id="more-news" style="display:none">
+  <ul>
+    <li> Apr 2024: Joined DEVCOM Army Research Laboratory as a postdoctoral fellow. </li>
+	<li> Dec 2023: Defended my thesis titled "Scalable and Efficient Bayesian Algorithms for Distributed Estimation and Inference". Read <a href="https://escholarship.org/uc/item/80w0z8nn">here</a>.</li>
+    <li>Sept 2023: Presented a poster on "Distributed Variational Inference for Online Supervised Learning" with a new Turtlebot4 team mapping implementation at <a href="https://sites.uci.edu/scr2023/schedule/">SoCal Robotics Symposium 2023</a>.</li>
+    <li>July 2023: Submitted our work on "Distributed Variational Inference for Online Supervised Learning". Read <a href="https://arxiv.org/pdf/2309.02606.pdf">here</a>.</li>
+    <li>Dec 2022: Presented our work on "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks" at <a href="https://cdc2022.ieeecss.org/">IEEE CDC 2022</a>.</li>
+    <li>Aug 2022: Our work titled "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks" was accepted to <a href="https://ieeexplore.ieee.org/abstract/document/9757175">IEEE Control Systems Letters</a>.</li>
+    <li>Mar 2022: Senate exam with a talk discussing "Scalable and Efficient Bayesian algorithms for Distributed Estimation and Inference"</li>
+  </ul>
+</div>
+
+<script>
+(function () {
+  var btn = document.getElementById('toggle-news');
+  var more = document.getElementById('more-news');
+  if (!btn || !more) return;
+
+  function set(open) {
+    more.style.display = open ? '' : 'none';
+    btn.textContent = open ? '… show less' : '… show more';
+  }
+
+  set(false); // start hidden
+  btn.addEventListener('click', function () {
+    var open = more.style.display === 'none';
+    set(open);
+  });
+})();
+</script>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
 <h2>Teaching</h2>
 <ul>
 <li><p>Teaching assistant for Cooperative Controls [<a href="./Documents/syllabus/MAE247.pdf" target=&ldquo;blank&rdquo;>MAE 247 syllabus</a>], Spring 2023: Graded homework solutions and held office hours.
@@ -106,7 +136,7 @@ was accepted to <a href="https://ieeexplore.ieee.org/abstract/document/9757175" 
 </ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2025-10-18 11:12:54 Eastern Daylight Time, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2025-10-18 11:41:39 Eastern Daylight Time, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>

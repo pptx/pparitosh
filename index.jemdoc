@@ -29,16 +29,56 @@ My work aims to address several aspects of provably correct distributed estimati
 such as accuracy, approximations and privacy.
 
 == News
-- Apr 2024: Joined DEVCOM Army Research Laboratory as a postdoctoral fellow
-- Dec 2023: Defended my thesis titled "Scalable and Efficient Bayesian Algorithms for Distributed Estimation and Inference"
-- Sept 2023: Presented a poster on "Distributed Variational Inference for Online Supervised Learning" with a new Turtlebot4 team mapping implementation at [https://sites.uci.edu/scr2023/schedule/ SoCal Robotics Symposium 2023].
-- July 2023: Submitted our work on "Distributed Variational Inference for Online Supervised Learning"
-Read [https://arxiv.org/pdf/2309.02606.pdf here].
-- Dec 2022: Presented our work on "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks"
-at [https://cdc2022.ieeecss.org/ IEEE CDC 2022]
-- Aug 2022: Our work titled "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks"
-was accepted to [https://ieeexplore.ieee.org/abstract/document/9757175 IEEE Control Systems Letters]
-- Mar 2022: Senate exam with a talk discussing "Scalable and Efficient Bayesian algorithms for Distributed Estimation and Inference"
+- Dec 2025: Attending the IEEE Conference on Decision and Control (CDC) to present our paper ``Distributed Variational Inference for Online Supervised Learning," published in IEEE Transactions on Control of Network Systems (TCNS).
+- June 2025: Presented our work ``Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition" at the IEEE Statistical Signal Processing Workshop (SSP 2025).
+- May 2025: Our paper ``The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks" was accepted for presentation at the International Conference on Information Fusion (ICIF 2025).
+
+~~~
+{}{raw}
+<button id="toggle-news" style="margin:.25rem 0;">… show more</button>
+<div id="more-news" style="display:none">
+  <ul>
+    <li> Apr 2024: Joined DEVCOM Army Research Laboratory as a postdoctoral fellow. </li>
+	<li> Dec 2023: Defended my thesis titled "Scalable and Efficient Bayesian Algorithms for Distributed Estimation and Inference". Read <a href="https://escholarship.org/uc/item/80w0z8nn">here</a>.</li>
+    <li>Sept 2023: Presented a poster on "Distributed Variational Inference for Online Supervised Learning" with a new Turtlebot4 team mapping implementation at <a href="https://sites.uci.edu/scr2023/schedule/">SoCal Robotics Symposium 2023</a>.</li>
+    <li>July 2023: Submitted our work on "Distributed Variational Inference for Online Supervised Learning". Read <a href="https://arxiv.org/pdf/2309.02606.pdf">here</a>.</li>
+    <li>Dec 2022: Presented our work on "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks" at <a href="https://cdc2022.ieeecss.org/">IEEE CDC 2022</a>.</li>
+    <li>Aug 2022: Our work titled "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks" was accepted to <a href="https://ieeexplore.ieee.org/abstract/document/9757175">IEEE Control Systems Letters</a>.</li>
+    <li>Mar 2022: Senate exam with a talk discussing "Scalable and Efficient Bayesian algorithms for Distributed Estimation and Inference"</li>
+  </ul>
+</div>
+
+<script>
+(function () {
+  var btn = document.getElementById('toggle-news');
+  var more = document.getElementById('more-news');
+  if (!btn || !more) return;
+
+  function set(open) {
+    more.style.display = open ? '' : 'none';
+    btn.textContent = open ? '… show less' : '… show more';
+  }
+
+  set(false); // start hidden
+  btn.addEventListener('click', function () {
+    var open = more.style.display === 'none';
+    set(open);
+  });
+})();
+</script>
+~~~
+
+# == News
+# - Apr 2024: Joined DEVCOM Army Research Laboratory as a postdoctoral fellow
+# - Dec 2023: Defended my thesis titled "Scalable and Efficient Bayesian Algorithms for Distributed Estimation and Inference"
+# - Sept 2023: Presented a poster on "Distributed Variational Inference for Online Supervised Learning" with a new Turtlebot4 team mapping implementation at [https://sites.uci.edu/scr2023/schedule/ SoCal Robotics Symposium 2023].
+# - July 2023: Submitted our work on "Distributed Variational Inference for Online Supervised Learning"
+# Read [https://arxiv.org/pdf/2309.02606.pdf here].
+# - Dec 2022: Presented our work on "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks"
+# at [https://cdc2022.ieeecss.org/ IEEE CDC 2022]
+# - Aug 2022: Our work titled "Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks"
+# was accepted to [https://ieeexplore.ieee.org/abstract/document/9757175 IEEE Control Systems Letters]
+# - Mar 2022: Senate exam with a talk discussing "Scalable and Efficient Bayesian algorithms for Distributed Estimation and Inference"
 # Portability. The (single) jemdoc [http://www.python.org/ Python] file \+ single css file \+ your input file {{&rarr;}} html.
   
 == Teaching
