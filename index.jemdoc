@@ -25,8 +25,9 @@ and Bachelor's degree from Indian Institute of Technology Guwahati.
 Some of my work with undergraduate students and interns at MURO lab is mentioned [http://muro.ucsd.edu/Blog/blog.html here].
 
 == Research 
-My work aims to address several aspects of provably correct distributed estimation and optimization in networked systems,
-such as accuracy, approximations and privacy.
+My research has focused on addressing achieving networked autonomous systems.
+In particular, my work aims to address several aspects of provably correct distributed estimation and optimization in networked systems,
+such as accuracy, efficiency, approximations and privacy.
 
 == News
 - Dec 2025: Attending the IEEE Conference on Decision and Control (CDC) to present our paper ``Distributed Variational Inference for Online Supervised Learning," published in IEEE Transactions on Control of Network Systems (TCNS).

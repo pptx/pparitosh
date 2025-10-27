@@ -5,23 +5,25 @@
 
 . The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks \n
   Lance Kaplan, James Z. Hare and *Parth Paritosh* \n
-  2025 International Conference on Information Fusion (ICIF) \[[https://ieeexplore.ieee.org/document/11124159 Xplore]\]
+  2025 International Conference on Information Fusion (ICIF) \[[https://ieeexplore.ieee.org/document/11124159 Xplore]\] \[[https://doi.org/10.23919/FUSION65864.2025.11124159 DOI]\]
 
 . Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition \n
   *Parth Paritosh* and Lance Kaplan \n
-  2025 IEEE Statistical Signal Processing Workshop (SSP) \[[https://ieeexplore.ieee.org/document/11073227 Xplore]\]
+  2025 IEEE Statistical Signal Processing Workshop (SSP) \[[https://ieeexplore.ieee.org/document/11073227 Xplore]\] \[[https://doi.org/10.1109/SSP64130.2025.11073227 DOI]\]
   
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  2022 IEEE 61st Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://github.com/pptx/time-varying-network-localization Code]\] \[[./Documents/Slides/CDC_2022_PPT.pdf Slides]\]
+  2022 IEEE 61st Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\]
+  \[[https://ieeexplore.ieee.org/abstract/document/9757175 Xplore]\] 
+ \[[https://github.com/pptx/time-varying-network-localization Code]\] \[[./Documents/Slides/CDC_2022_PPT.pdf Slides]\] \[[https://doi.org/10.1109/LCSYS.2022.3167654 DOI]\]
   
 . Marginal density averaging for distributed node localization from local edge measurements \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  2020 IEEE 59th Conference on Decision and Control (CDC) \[[https://par.nsf.gov/servlets/purl/10192440 PDF]\] \[[./Documents/Slides/CDC_2020_PPT.pdf Slides]\]
+  2020 IEEE 59th Conference on Decision and Control (CDC) \[[https://ieeexplore.ieee.org/document/9303869 Xplore]\] \[[https://par.nsf.gov/servlets/purl/10192440 PDF]\] \[[./Documents/Slides/CDC_2020_PPT.pdf Slides]\] \[[https://doi.org/10.1109/CDC42340.2020.9303869 DOI]\]
   
 . Hypothesis Assignment and Partial Likelihood Averaging for Cooperative Estimation \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\] \[[./Documents/Slides/CDC_2019_PPT.pdf Slides]\]
+  2019 IEEE 58th Conference on Decision and Control (CDC) \[[https://ieeexplore.ieee.org/document/9029768 Xplore]\] \[[https://natanaso.github.io/ref/Paritosh_DistributedEstimation_CDC19.pdf PDF]\] \[[./Documents/Slides/CDC_2019_PPT.pdf Slides]\] \[[https://doi.org/10.1109/CDC40024.2019.9029768 DOI]\]
 
 == Journal Articles 
 . Privacy-Preserving Distributed Maximum Likelihood Estimation via State Decomposition. \n
@@ -30,23 +32,24 @@
   
 . Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
-  IEEE Transactions on Network Science and Engineering, 2025 \[[https://arxiv.org/pdf/2312.01227.pdf arXiv]\] \[[./Documents/Papers/PP-NA-SM-25.pdf PDF]\] \[[https://ieeexplore.ieee.org/abstract/document/10944430 Xplore]\]
+  IEEE Transactions on Network Science and Engineering, 2025 \[[https://arxiv.org/pdf/2312.01227.pdf arXiv]\] \[[./Documents/Papers/PP-NA-SM-25.pdf PDF]\] \[[https://ieeexplore.ieee.org/abstract/document/10944430 Xplore]\] \[[https://doi.org/10.1109/TNSE.2025.3554729 DOI]\]
   
 . Distributed Variational Inference for Online Supervised Learning \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
-  IEEE Transactions on Control of Network Systems, 2025 \[[./Documents/Papers/PP-NA-SM-25-DistVarInf.pdf PDF]\] \[[https://arxiv.org/pdf/2309.02606.pdf arXiv]\] \[[https://github.com/pptx/distributed-mapping Code]\] \[[https://ieeexplore.ieee.org/document/10892067 Xplore]\]
+  IEEE Transactions on Control of Network Systems, 2025 \[[./Documents/Papers/PP-NA-SM-25-DistVarInf.pdf PDF]\] \[[https://arxiv.org/pdf/2309.02606.pdf arXiv]\] \[[https://github.com/pptx/distributed-mapping Code]\] \[[https://ieeexplore.ieee.org/document/10892067 Xplore]\] \[[https://doi.org/10.1109/TCNS.2025.3543665 DOI]\]
   
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
-  IEEE Control Systems Letters, 2022 \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://codeocean.com/capsule/9955231/tree Code Capsule]\] \[[./Documents/Slides/CDC_2022_PPT.pdf Slides]\]
+  IEEE Control Systems Letters, 2022 \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://codeocean.com/capsule/9955231/tree Code Capsule]\] \[[./Documents/Slides/CDC_2022_PPT.pdf Slides]\] \[[https://doi.org/10.1109/LCSYS.2022.3167654 DOI]\]
   
 . Model predictive control under forecast uncertainty for optimal operation of buildings \n with integrated solar systems \n
   Xiaoqi Liu, *Parth Paritosh*, Nimish M Awalgaonkar, Ilias Bilionis and Panagiota Karava \n
   Solar Energy, 2018 \[[https://www.researchgate.net/profile/Panagiota_Karava2/publication/326929454_Model_predictive_control_under_forecast_uncertainty_for_optimal_operation_of_buildings_with_integrated_solar_systems/links/5bf18d2f92851c6b27c86f31/Model-predictive-control-under-forecast-uncertainty-for-optimal-operation-of-buildings-with-integrated-solar-systems.pdf PDF]\]  
+  \[[https://doi.org/10.1016/j.solener.2018.06.038 DOI]\]
 
 . A game theory based land layout optimization of cities using genetic algorithm \n
   *Parth Paritosh*, Bhaben Kalita and Deepak Sharma \n
-  International Journal of Management Science and Engineering Management, 2018 \[[https://www.tandfonline.com/doi/full/10.1080/17509653.2018.1505566 Link]\]  
+  International Journal of Management Science and Engineering Management, 2018 \[[https://www.tandfonline.com/doi/full/10.1080/17509653.2018.1505566 Link]\]  \[[https://doi.org/10.1080/17509653.2018.1505566 DOI]\]
 
 # , [https://arxiv.org/abs/1705.03109 arXiv]  
   
