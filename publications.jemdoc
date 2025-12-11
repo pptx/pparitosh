@@ -36,7 +36,8 @@
   
 . Distributed Variational Inference for Online Supervised Learning \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
-  IEEE Transactions on Control of Network Systems, 2025 \[[./Documents/Papers/PP-NA-SM-25-DistVarInf.pdf PDF]\] \[[https://arxiv.org/pdf/2309.02606.pdf arXiv]\] \[[https://github.com/pptx/distributed-mapping Code]\] \[[https://ieeexplore.ieee.org/document/10892067 Xplore]\] \[[https://doi.org/10.1109/TCNS.2025.3543665 DOI]\]
+  IEEE Transactions on Control of Network Systems, 2025 \[[./Documents/Papers/PP-NA-SM-25-DistVarInf.pdf PDF]\] \[[https://arxiv.org/pdf/2309.02606.pdf arXiv]\] \[[https://github.com/pptx/distributed-mapping Code]\] \[[https://ieeexplore.ieee.org/document/10892067 Xplore]\] \[[https://doi.org/10.1109/TCNS.2025.3543665 DOI]\] \n 
+  Presented at 2025 IEEE Conference on Decision and Control (CDC) \[[./Documents/Slides/CDC_2025_PPT.pdf Slides]\]
   
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
