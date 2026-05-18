@@ -3,6 +3,10 @@
 
 == Conference Proceedings 
 
+. Normalizing Flow for Two-Sample Hypothesis Testing: Improved Uncertainty Representation but Not Necessarily More Power \n
+  *Parth Paritosh*, James Z. Hare and Lance Kaplan \n
+  _Accepted_ at 2026 International Conference on Information Fusion (ICIF) 
+  
 . The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks \n
   Lance Kaplan, James Z. Hare and *Parth Paritosh* \n
   2025 International Conference on Information Fusion (ICIF) \[[https://ieeexplore.ieee.org/document/11124159 Xplore]\] \[[https://doi.org/10.23919/FUSION65864.2025.11124159 DOI]\]
@@ -28,7 +32,7 @@
 == Journal Articles 
 . Privacy-Preserving Distributed Maximum Likelihood Estimation via State Decomposition. \n
   *Parth Paritosh* and Lance Kaplan \n 
-  _Under review_ at IEEE Transactions on Signal Processing
+  _Accepted_ at IEEE Transactions on Signal Processing \[[./Documents/Papers/PP-LK-26-TSP.pdf PDF]\]
   
 . Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
