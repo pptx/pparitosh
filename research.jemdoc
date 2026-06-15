@@ -3,7 +3,7 @@
 
 == Research Vision
 
-My research focuses on the theory and algorithms required for **scalable, context-aware, and resilient inference** 
+My research focuses on the theory and algorithms required for *scalable, context-aware, and resilient inference* 
 in networked autonomous and mission-critical systems. I work at the intersection of networked systems, probabilistic inference, and control theory, with 
 applications to *multi-robot autonomy*, *sensing*, and *secure distributed learning*. 
 
@@ -25,25 +25,25 @@ Core themes include:
 providing rigorous performance guarantees. \n
 
 ==== *Representative questions:*
-- **Relevance:** How can agents identify and maintain ``relevant'' model parameters and perform provably correct 
+- *Relevance:* How can agents identify and maintain ``relevant'' model parameters and perform provably correct 
   real-time estimation using only locally held data?
-- **Agreement:** How can we enforce accuracy and consensus on overlapping parameter sets across agents?
-- **Operational:** How can we obtain meaningful accuracy guarantees for real-world sensors with non-conjugate 
+- *Agreement:* How can we enforce accuracy and consensus on overlapping parameter sets across agents?
+- *Operational:* How can we obtain meaningful accuracy guarantees for real-world sensors with non-conjugate 
   measurement models? \n
 
 
 ==== *Key ideas and results:*
-- Formulation of **marginal-consensus constrained distributed Bayesian inference**, where each agent maintains local 
+- Formulation of *marginal-consensus constrained distributed Bayesian inference*, where each agent maintains local 
   probability distributions that are consistent on shared variables.
-- **Provably correct online estimation** of optimal probability distributions using local likelihoods and networked communication.
-- **Exponential convergence guarantees** for shared variables over time-varying networks via:
+- *Provably correct online estimation* of optimal probability distributions using local likelihoods and networked communication.
+- *Exponential convergence guarantees* for shared variables over time-varying networks via:
   -- Variational-inference based distributed updates.
   -- Particle-filter adaptations for nonlinear / non-Gaussian settings.
-- **Functional convergence** to divergence neighborhoods of the true distribution, including explicit Kullback-Leibler divergence bounds.
-- **Connected network assignment** strategies that maximize information gained from distributed observations.
+- *Functional convergence* to divergence neighborhoods of the true distribution, including explicit Kullback-Leibler divergence bounds.
+- *Connected network assignment* strategies that maximize information gained from distributed observations.
 
 # ==== *Application example:*
-# - Distributed learning of **probabilistic occupancy models** using LiDAR data from a team of robots.
+# - Distributed learning of *probabilistic occupancy models* using LiDAR data from a team of robots.
 # - Multi-robot trajectories and shared / distinct feature points are fused into a consistent probabilistic map.
 
 ==== *Relevant Publications:*
@@ -63,17 +63,17 @@ providing rigorous performance guarantees. \n
 model learning and probabilistic estimation.
 
 ==== *Representative questions:*
-- **Heterogeneity:** How can we design online estimation algorithms for non-conjugate likelihood models across 
+- *Heterogeneity:* How can we design online estimation algorithms for non-conjugate likelihood models across 
   different sensing modalities?
-- **Context:** How can algorithms adapt to diverse environments via concurrent model learning and inference?
+- *Context:* How can algorithms adapt to diverse environments via concurrent model learning and inference?
 
 ==== *Key ideas and results:*
-- A **distributed evidence lower bound (ELBO)** formulation enabling collaborative posterior approximation.
-- **Approximate Gaussian posterior updates** for non-conjugate likelihoods, leading to tractable distributed supervised-learning rules.
-- **Normalizing-flow based context-change detection**, enabling adaptation to changing environments (ongoing).
+- A *distributed evidence lower bound (ELBO)* formulation enabling collaborative posterior approximation.
+- *Approximate Gaussian posterior updates* for non-conjugate likelihoods, leading to tractable distributed supervised-learning rules.
+- *Normalizing-flow based context-change detection*, enabling adaptation to changing environments (ongoing).
 
 ==== *Application example:*
-- Real-time occupancy prediction using **LiDAR-equipped TurtleBots** in a partitioned hall.
+- Real-time occupancy prediction using *LiDAR-equipped TurtleBots* in a partitioned hall.
 - The system predicts occupancy probabilities across regions, demonstrating heterogeneous sensor fusion.
 
 ==== *Relevant Publications:*
@@ -91,28 +91,32 @@ model learning and probabilistic estimation.
 
 === Privacy and Resilience in Distributed Inference
 
-*Goal:* Develop distributed algorithms that are both **privacy-preserving** and **resilient to adversarial behavior**, 
+*Goal:* Develop distributed algorithms that are both *privacy-preserving* and *resilient to adversarial behavior*, 
 while retaining strong convergence guarantees.
 
 ==== *Representative questions:*
-- **Privacy:** How can agents preserve the confidentiality of local signals and parameters necessary for 
+- *Privacy:* How can agents preserve the confidentiality of local signals and parameters necessary for 
   real-time second-order estimation?
-- **Resilience:** How can algorithms maintain accurate tracking in the presence of malicious data injection?
-- **Resilient Design:** How to design network structure to ensure privacy and resilience?
+- *Resilience:* How can algorithms maintain accurate tracking in the presence of malicious data injection?
+- *Resilient Design:* How to design network structure to ensure privacy and resilience?
 
 ==== *Key ideas and results:*
-- Development of **privacy attack models** tailored to convergent distributed signals, avoiding potential leakage.
-- A **privacy-preserving state decomposition algorithm** for dynamic average consensus and related estimation tasks:
+- Development of *privacy attack models* tailored to convergent distributed signals, avoiding potential leakage.
+- A *privacy-preserving state decomposition algorithm* for dynamic average consensus and related estimation tasks:
   -- Avoids heavy encryption and is computationally efficient.
-  -- Preserves the **convergence rate** of non-private algorithms.
-- **Local detection and mitigation** of malicious agents through consistency monitoring and robust update rules (ongoing).
+  -- Preserves the *convergence rate* of non-private algorithms.
+- *Local detection and mitigation* of malicious agents through consistency monitoring and robust update rules (ongoing).
 
 ==== *Applications:*
-- **Distributed private averaging**, consensus, and optimization.
+- *Distributed private averaging*, consensus, and optimization.
 - Networked autonomous systems requiring confidentiality in mission-critical settings.
 
 
 ==== *Relevant Publications:*
+
+. Privacy-Preserving Distributed Maximum Likelihood Estimation via State Decomposition \n
+  *Parth Paritosh* and Lance Kaplan \n
+  IEEE Transactions on Signal Processing, 2026 \[[./Documents/Papers/PP-LK-26-TSP.pdf PDF]\] \[[https://doi.org/10.1109/TSP.2026.3695408 DOI]\]
 
 . Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition \n
   *Parth Paritosh* and Lance Kaplan \n

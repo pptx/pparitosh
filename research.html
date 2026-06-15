@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Research</title>
+<title>Research</title>
 <!-- MathJax -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
 </script>
@@ -27,232 +27,203 @@ MathJax.Hub.Config({
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Research</h1>
-<div id="subtitle">
+<h1>Research</h1>
 </div>
-</div>
-<h2>Research Vision</h2>
-<p>
-My research focuses on the theory and algorithms required for <b></b>scalable, context-aware, and resilient inference<b></b> 
-in networked autonomous and mission-critical systems. I work at the intersection of networked systems, probabilistic inference, and control theory, with 
-applications to <b>multi-robot autonomy</b>, <b>sensing</b>, and <b>secure distributed learning</b>. 
-
-Core themes include:
-
+<h2>Research Vision</h2>
+<p>My research focuses on the theory and algorithms required for <b>scalable, context-aware, and resilient inference</b> 
+in networked autonomous and mission-critical systems. I work at the intersection of networked systems, probabilistic inference, and control theory, with 
+applications to <b>multi-robot autonomy</b>, <b>sensing</b>, and <b>secure distributed learning</b>. 
+</p>
+<p>Core themes include:
 </p>
 <ul>
-<li><p><b>Scalability</b> - Distributed inference over large networks under storage and communication limits.
+<li><p><b>Scalability</b> - Distributed inference over large networks under storage and communication limits.
 </p>
 </li>
-<li><p><b>Heterogeneity</b> - Integrating diverse sensing modalities and non-conjugate likelihoods.
+<li><p><b>Heterogeneity</b> - Integrating diverse sensing modalities and non-conjugate likelihoods.
 </p>
 </li>
-<li><p><b>Resilience</b> - Robustness to noise and context changes, and mitigating adversarial behavior.
+<li><p><b>Resilience</b> - Robustness to noise and context changes, and mitigating adversarial behavior.
 
-
 </p>
 </li>
 </ul>
 <table class="imgtable"><tr><td>
 <img src="./Documents/images/intro-min.png" alt="Photo" width="360px" height="210px" />&nbsp;</td>
 <td align="left"></td></tr></table>
-<p>
+<h3>Storage and Communication Scalability</h3>
+<p><b>Goal:</b> Design distributed Bayesian estimation algorithms that remain scalable in storage and communication while 
+providing rigorous performance guarantees. <br />
 </p>
-<h3>Storage and Communication Scalability</h3>
-<p>
-<b>Goal:</b> Design distributed Bayesian estimation algorithms that remain scalable in storage and communication while 
-providing rigorous performance guarantees. <br />
-
-</p>
-<h4><b>Representative questions:</b></h4>
+<h4><b>Representative questions:</b></h4>
 <ul>
-<li><p><b></b>Relevance:<b></b> How can agents identify and maintain &lsquo;&lsquo;relevant&rsquo;&rsquo; model parameters and perform provably correct 
-real-time estimation using only locally held data?
+<li><p><b>Relevance:</b> How can agents identify and maintain &lsquo;&lsquo;relevant&rsquo;&rsquo; model parameters and perform provably correct 
+real-time estimation using only locally held data?
 </p>
 </li>
-<li><p><b></b>Agreement:<b></b> How can we enforce accuracy and consensus on overlapping parameter sets across agents?
+<li><p><b>Agreement:</b> How can we enforce accuracy and consensus on overlapping parameter sets across agents?
 </p>
 </li>
-<li><p><b></b>Operational:<b></b> How can we obtain meaningful accuracy guarantees for real-world sensors with non-conjugate 
-measurement models? <br />
-
-
+<li><p><b>Operational:</b> How can we obtain meaningful accuracy guarantees for real-world sensors with non-conjugate 
+measurement models? <br />
 </p>
 </li>
 </ul>
-<h4><b>Key ideas and results:</b></h4>
+<h4><b>Key ideas and results:</b></h4>
 <ul>
-<li><p>Formulation of <b></b>marginal-consensus constrained distributed Bayesian inference<b></b>, where each agent maintains local 
-probability distributions that are consistent on shared variables.
+<li><p>Formulation of <b>marginal-consensus constrained distributed Bayesian inference</b>, where each agent maintains local 
+probability distributions that are consistent on shared variables.
 </p>
 </li>
-<li><p><b></b>Provably correct online estimation<b></b> of optimal probability distributions using local likelihoods and networked communication.
+<li><p><b>Provably correct online estimation</b> of optimal probability distributions using local likelihoods and networked communication.
 </p>
 </li>
-<li><p><b></b>Exponential convergence guarantees<b></b> for shared variables over time-varying networks via:
+<li><p><b>Exponential convergence guarantees</b> for shared variables over time-varying networks via:
 </p>
 <ul>
-<li><p>Variational-inference based distributed updates.
+<li><p>Variational-inference based distributed updates.
 </p>
 </li>
-<li><p>Particle-filter adaptations for nonlinear / non-Gaussian settings.
+<li><p>Particle-filter adaptations for nonlinear / non-Gaussian settings.
 </p>
 </li></ul>
 </li>
-<li><p><b></b>Functional convergence<b></b> to divergence neighborhoods of the true distribution, including explicit Kullback-Leibler divergence bounds.
+<li><p><b>Functional convergence</b> to divergence neighborhoods of the true distribution, including explicit Kullback-Leibler divergence bounds.
 </p>
 </li>
-<li><p><b></b>Connected network assignment<b></b> strategies that maximize information gained from distributed observations.
-
-
-
-
-
+<li><p><b>Connected network assignment</b> strategies that maximize information gained from distributed observations.
 </p>
 </li>
 </ul>
-<h4><b>Relevant Publications:</b></h4>
-<p>
-</p>
+<h4><b>Relevant Publications:</b></h4>
 <ol>
-<li><p>Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. <br />
-<b>Parth Paritosh</b>, Nikolay Atanasov and Sonia Martinez <br /> 
-IEEE Transactions on Network Science and Engineering, 2025 [<a href="https://arxiv.org/pdf/2312.01227.pdf" target=&ldquo;blank&rdquo;>arXiv</a>] [<a href="./Documents/Papers/PP-NA-SM-25.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="https://ieeexplore.ieee.org/abstract/document/10944430" target=&ldquo;blank&rdquo;>Xplore</a>] [<a href="https://doi.org/10.1109/TNSE.2025.3554729" target=&ldquo;blank&rdquo;>DOI</a>]
-
-</p>
-</li>
-<li><p>Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks <br />
-<b>Parth Paritosh</b>, Nikolay Atanasov and Sonia Martinez <br />
-IEEE Control Systems Letters, 2022 [<a href="https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="https://codeocean.com/capsule/9955231/tree" target=&ldquo;blank&rdquo;>Code Capsule</a>] [<a href="./Documents/Slides/CDC_2022_PPT.pdf" target=&ldquo;blank&rdquo;>Slides</a>] [<a href="https://doi.org/10.1109/LCSYS.2022.3167654" target=&ldquo;blank&rdquo;>DOI</a>]
-
-
+<li><p>Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. <br />
+<b>Parth Paritosh</b>, Nikolay Atanasov and Sonia Martinez <br /> 
+IEEE Transactions on Network Science and Engineering, 2025 [<a href="https://arxiv.org/pdf/2312.01227.pdf" target=&ldquo;blank&rdquo;>arXiv</a>] [<a href="./Documents/Papers/PP-NA-SM-25.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="https://ieeexplore.ieee.org/abstract/document/10944430" target=&ldquo;blank&rdquo;>Xplore</a>] [<a href="https://doi.org/10.1109/TNSE.2025.3554729" target=&ldquo;blank&rdquo;>DOI</a>]
 </p>
 </li>
 </ol>
-<h3>Context-Aware Heterogeneous Sensing</h3>
-<p>
-<b>Goal:</b> Enable real-time inference in systems with heterogeneous sensors and changing environments through joint 
-model learning and probabilistic estimation.
-
-</p>
-<h4><b>Representative questions:</b></h4>
-<ul>
-<li><p><b></b>Heterogeneity:<b></b> How can we design online estimation algorithms for non-conjugate likelihood models across 
-different sensing modalities?
-</p>
-</li>
-<li><p><b></b>Context:<b></b> How can algorithms adapt to diverse environments via concurrent model learning and inference?
-
-</p>
-</li>
-</ul>
-<h4><b>Key ideas and results:</b></h4>
-<ul>
-<li><p>A <b></b>distributed evidence lower bound (ELBO)<b></b> formulation enabling collaborative posterior approximation.
-</p>
-</li>
-<li><p><b></b>Approximate Gaussian posterior updates<b></b> for non-conjugate likelihoods, leading to tractable distributed supervised-learning rules.
-</p>
-</li>
-<li><p><b></b>Normalizing-flow based context-change detection<b></b>, enabling adaptation to changing environments (ongoing).
-
-</p>
-</li>
-</ul>
-<h4><b>Application example:</b></h4>
-<ul>
-<li><p>Real-time occupancy prediction using <b></b>LiDAR-equipped TurtleBots<b></b> in a partitioned hall.
-</p>
-</li>
-<li><p>The system predicts occupancy probabilities across regions, demonstrating heterogeneous sensor fusion.
-
-</p>
-</li>
-</ul>
-<h4><b>Relevant Publications:</b></h4>
-<p>
-</p>
 <ol>
-<li><p>Distributed Variational Inference for Online Supervised Learning <br />
-<b>Parth Paritosh</b>, Nikolay Atanasov and Sonia Martinez <br /> 
-IEEE Transactions on Control of Network Systems, 2025 [<a href="./Documents/Papers/PP-NA-SM-25-DistVarInf.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="https://arxiv.org/pdf/2309.02606.pdf" target=&ldquo;blank&rdquo;>arXiv</a>] [<a href="https://github.com/pptx/distributed-mapping" target=&ldquo;blank&rdquo;>Code</a>] [<a href="https://ieeexplore.ieee.org/document/10892067" target=&ldquo;blank&rdquo;>Xplore</a>] [<a href="https://doi.org/10.1109/TCNS.2025.3543665" target=&ldquo;blank&rdquo;>DOI</a>] <br /> 
-Presented at 2025 IEEE Conference on Decision and Control (CDC) [<a href="./Documents/Slides/CDC_2025_PPT.pdf" target=&ldquo;blank&rdquo;>Slides</a>]
-
-</p>
-</li>
-<li><p>The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks <br />
-Lance Kaplan, James Z. Hare and <b>Parth Paritosh</b> <br />
-2025 International Conference on Information Fusion (ICIF) [<a href="https://ieeexplore.ieee.org/document/11124159" target=&ldquo;blank&rdquo;>Xplore</a>] [<a href="https://doi.org/10.23919/FUSION65864.2025.11124159" target=&ldquo;blank&rdquo;>DOI</a>]
-
-
-
+<li><p>Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks <br />
+<b>Parth Paritosh</b>, Nikolay Atanasov and Sonia Martinez <br />
+IEEE Control Systems Letters, 2022 [<a href="https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="https://codeocean.com/capsule/9955231/tree" target=&ldquo;blank&rdquo;>Code Capsule</a>] [<a href="./Documents/Slides/CDC_2022_PPT.pdf" target=&ldquo;blank&rdquo;>Slides</a>] [<a href="https://doi.org/10.1109/LCSYS.2022.3167654" target=&ldquo;blank&rdquo;>DOI</a>]
 </p>
 </li>
 </ol>
-<h3>Privacy and Resilience in Distributed Inference</h3>
-<p>
-<b>Goal:</b> Develop distributed algorithms that are both <b></b>privacy-preserving<b></b> and <b></b>resilient to adversarial behavior<b></b>, 
-while retaining strong convergence guarantees.
-
+<h3>Context-Aware Heterogeneous Sensing</h3>
+<p><b>Goal:</b> Enable real-time inference in systems with heterogeneous sensors and changing environments through joint 
+model learning and probabilistic estimation.
 </p>
-<h4><b>Representative questions:</b></h4>
+<h4><b>Representative questions:</b></h4>
 <ul>
-<li><p><b></b>Privacy:<b></b> How can agents preserve the confidentiality of local signals and parameters necessary for 
-real-time second-order estimation?
+<li><p><b>Heterogeneity:</b> How can we design online estimation algorithms for non-conjugate likelihood models across 
+different sensing modalities?
 </p>
 </li>
-<li><p><b></b>Resilience:<b></b> How can algorithms maintain accurate tracking in the presence of malicious data injection?
-</p>
-</li>
-<li><p><b></b>Resilient Design:<b></b> How to design network structure to ensure privacy and resilience?
-
+<li><p><b>Context:</b> How can algorithms adapt to diverse environments via concurrent model learning and inference?
 </p>
 </li>
 </ul>
-<h4><b>Key ideas and results:</b></h4>
+<h4><b>Key ideas and results:</b></h4>
 <ul>
-<li><p>Development of <b></b>privacy attack models<b></b> tailored to convergent distributed signals, avoiding potential leakage.
+<li><p>A <b>distributed evidence lower bound (ELBO)</b> formulation enabling collaborative posterior approximation.
 </p>
 </li>
-<li><p>A <b></b>privacy-preserving state decomposition algorithm<b></b> for dynamic average consensus and related estimation tasks:
-</p>
-<ul>
-<li><p>Avoids heavy encryption and is computationally efficient.
+<li><p><b>Approximate Gaussian posterior updates</b> for non-conjugate likelihoods, leading to tractable distributed supervised-learning rules.
 </p>
 </li>
-<li><p>Preserves the <b></b>convergence rate<b></b> of non-private algorithms.
+<li><p><b>Normalizing-flow based context-change detection</b>, enabling adaptation to changing environments (ongoing).
+</p>
+</li>
+</ul>
+<h4><b>Application example:</b></h4>
+<ul>
+<li><p>Real-time occupancy prediction using <b>LiDAR-equipped TurtleBots</b> in a partitioned hall.
+</p>
+</li>
+<li><p>The system predicts occupancy probabilities across regions, demonstrating heterogeneous sensor fusion.
+</p>
+</li>
+</ul>
+<h4><b>Relevant Publications:</b></h4>
+<ol>
+<li><p>Distributed Variational Inference for Online Supervised Learning <br />
+<b>Parth Paritosh</b>, Nikolay Atanasov and Sonia Martinez <br /> 
+IEEE Transactions on Control of Network Systems, 2025 [<a href="./Documents/Papers/PP-NA-SM-25-DistVarInf.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="https://arxiv.org/pdf/2309.02606.pdf" target=&ldquo;blank&rdquo;>arXiv</a>] [<a href="https://github.com/pptx/distributed-mapping" target=&ldquo;blank&rdquo;>Code</a>] [<a href="https://ieeexplore.ieee.org/document/10892067" target=&ldquo;blank&rdquo;>Xplore</a>] [<a href="https://doi.org/10.1109/TCNS.2025.3543665" target=&ldquo;blank&rdquo;>DOI</a>] <br /> 
+Presented at 2025 IEEE Conference on Decision and Control (CDC) [<a href="./Documents/Slides/CDC_2025_PPT.pdf" target=&ldquo;blank&rdquo;>Slides</a>]
+</p>
+</li>
+</ol>
+<ol>
+<li><p>The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks <br />
+Lance Kaplan, James Z. Hare and <b>Parth Paritosh</b> <br />
+2025 International Conference on Information Fusion (ICIF) [<a href="https://ieeexplore.ieee.org/document/11124159" target=&ldquo;blank&rdquo;>Xplore</a>] [<a href="https://doi.org/10.23919/FUSION65864.2025.11124159" target=&ldquo;blank&rdquo;>DOI</a>]
+</p>
+</li>
+</ol>
+<h3>Privacy and Resilience in Distributed Inference</h3>
+<p><b>Goal:</b> Develop distributed algorithms that are both <b>privacy-preserving</b> and <b>resilient to adversarial behavior</b>, 
+while retaining strong convergence guarantees.
+</p>
+<h4><b>Representative questions:</b></h4>
+<ul>
+<li><p><b>Privacy:</b> How can agents preserve the confidentiality of local signals and parameters necessary for 
+real-time second-order estimation?
+</p>
+</li>
+<li><p><b>Resilience:</b> How can algorithms maintain accurate tracking in the presence of malicious data injection?
+</p>
+</li>
+<li><p><b>Resilient Design:</b> How to design network structure to ensure privacy and resilience?
+</p>
+</li>
+</ul>
+<h4><b>Key ideas and results:</b></h4>
+<ul>
+<li><p>Development of <b>privacy attack models</b> tailored to convergent distributed signals, avoiding potential leakage.
+</p>
+</li>
+<li><p>A <b>privacy-preserving state decomposition algorithm</b> for dynamic average consensus and related estimation tasks:
+</p>
+<ul>
+<li><p>Avoids heavy encryption and is computationally efficient.
+</p>
+</li>
+<li><p>Preserves the <b>convergence rate</b> of non-private algorithms.
 </p>
 </li></ul>
 </li>
-<li><p><b></b>Local detection and mitigation<b></b> of malicious agents through consistency monitoring and robust update rules (ongoing).
-
+<li><p><b>Local detection and mitigation</b> of malicious agents through consistency monitoring and robust update rules (ongoing).
 </p>
 </li>
 </ul>
-<h4><b>Applications:</b></h4>
+<h4><b>Applications:</b></h4>
 <ul>
-<li><p><b></b>Distributed private averaging<b></b>, consensus, and optimization.
+<li><p><b>Distributed private averaging</b>, consensus, and optimization.
 </p>
 </li>
-<li><p>Networked autonomous systems requiring confidentiality in mission-critical settings.
-
-
+<li><p>Networked autonomous systems requiring confidentiality in mission-critical settings.
 </p>
 </li>
 </ul>
-<h4><b>Relevant Publications:</b></h4>
-<p>
-</p>
+<h4><b>Relevant Publications:</b></h4>
 <ol>
-<li><p>Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition <br />
-<b>Parth Paritosh</b> and Lance Kaplan <br />
-2025 IEEE Statistical Signal Processing Workshop (SSP) [<a href="https://ieeexplore.ieee.org/document/11073227" target=&ldquo;blank&rdquo;>Xplore</a>] [<a href="https://doi.org/10.1109/SSP64130.2025.11073227" target=&ldquo;blank&rdquo;>DOI</a>]
+<li><p>Privacy-Preserving Distributed Maximum Likelihood Estimation via State Decomposition <br />
+<b>Parth Paritosh</b> and Lance Kaplan <br />
+IEEE Transactions on Signal Processing, 2026 [<a href="./Documents/Papers/PP-LK-26-TSP.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="https://doi.org/10.1109/TSP.2026.3695408" target=&ldquo;blank&rdquo;>DOI</a>]
+</p>
+</li>
+</ol>
+<ol>
+<li><p>Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition <br />
+<b>Parth Paritosh</b> and Lance Kaplan <br />
+2025 IEEE Statistical Signal Processing Workshop (SSP) [<a href="https://ieeexplore.ieee.org/document/11073227" target=&ldquo;blank&rdquo;>Xplore</a>] [<a href="https://doi.org/10.1109/SSP64130.2025.11073227" target=&ldquo;blank&rdquo;>DOI</a>]
 </p>
 </li>
 </ol>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-05-18 13:14:39 Eastern Daylight Time, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-06-15 01:13:15 Eastern Daylight Time, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
