@@ -30,16 +30,17 @@ In particular, my work aims to address several aspects of provably correct distr
 such as accuracy, efficiency, approximations and privacy.
 
 == News
+- Aug 2026: Our paper ``Resilient Tracking with Strongly Malicious Agents" was accepted at the 2026 IEEE Conference on Decision and Control (CDC).
 - June 2026: Our paper ``Privacy-Preserving Distributed Maximum Likelihood Estimation via State Decomposition" was accepted at IEEE Transactions on Signal Processing (TSP).
 - April 2026: Our paper ``Normalizing Flow for Two-Sample Hypothesis Testing: Improved Uncertainty Representation but Not Necessarily More Power" was accepted at the 2026 International Conference on Information Fusion (ICIF).
 - Feb-Mar 2026: Gave talks titled ``Scalable & Trustworthy Inference in Networked Mission-Critical Systems" at IIT Gandhinagar, IISc Bengaluru, and IIT Hyderabad.
-- Dec 2025: Attending the IEEE Conference on Decision and Control (CDC) to present our paper ``Distributed Variational Inference for Online Supervised Learning," published in IEEE Transactions on Control of Network Systems (TCNS).
 
 ~~~
 {}{raw}
 <button id="toggle-news" style="margin:.25rem 0;">… show more</button>
 <div id="more-news" style="display:none">
   <ul>
+    <li>Dec 2025: Presented our paper "Distributed Variational Inference for Online Supervised Learning," published in IEEE Transactions on Control of Network Systems (TCNS), at the IEEE Conference on Decision and Control (CDC).</li>
     <li>June 2025: Presented our work "Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition" at the IEEE Statistical Signal Processing Workshop (SSP 2025).</li>
     <li>May 2025: Our paper "The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks" was accepted for presentation at the International Conference on Information Fusion (ICIF 2025).</li>
     <li> Apr 2024: Joined DEVCOM Army Research Laboratory as a postdoctoral fellow. </li>

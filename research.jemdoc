@@ -51,7 +51,6 @@ providing rigorous performance guarantees. \n
 . Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities. \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
   IEEE Transactions on Network Science and Engineering, 2025 \[[https://arxiv.org/pdf/2312.01227.pdf arXiv]\] \[[./Documents/Papers/PP-NA-SM-25.pdf PDF]\] \[[https://ieeexplore.ieee.org/abstract/document/10944430 Xplore]\] \[[https://doi.org/10.1109/TNSE.2025.3554729 DOI]\]
-  
 . Distributed Bayesian Estimation of Continuous Variables Over Time-Varying Directed Networks \n
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n
   IEEE Control Systems Letters, 2022 \[[https://natanaso.github.io/ref/Paritosh_DistributedBayesianEstimation_LCSS22.pdf PDF]\] \[[https://codeocean.com/capsule/9955231/tree Code Capsule]\] \[[./Documents/Slides/CDC_2022_PPT.pdf Slides]\] \[[https://doi.org/10.1109/LCSYS.2022.3167654 DOI]\]
@@ -82,7 +81,6 @@ model learning and probabilistic estimation.
   *Parth Paritosh*, Nikolay Atanasov and Sonia Martinez \n 
   IEEE Transactions on Control of Network Systems, 2025 \[[./Documents/Papers/PP-NA-SM-25-DistVarInf.pdf PDF]\] \[[https://arxiv.org/pdf/2309.02606.pdf arXiv]\] \[[https://github.com/pptx/distributed-mapping Code]\] \[[https://ieeexplore.ieee.org/document/10892067 Xplore]\] \[[https://doi.org/10.1109/TCNS.2025.3543665 DOI]\] \n 
   Presented at 2025 IEEE Conference on Decision and Control (CDC) \[[./Documents/Slides/CDC_2025_PPT.pdf Slides]\]
-  
 . The Effect of the Prior on Asymptotic Performance of Uncertain Naive Bayesian Networks \n
   Lance Kaplan, James Z. Hare and *Parth Paritosh* \n
   2025 International Conference on Information Fusion (ICIF) \[[https://ieeexplore.ieee.org/document/11124159 Xplore]\] \[[https://doi.org/10.23919/FUSION65864.2025.11124159 DOI]\]
@@ -114,10 +112,12 @@ while retaining strong convergence guarantees.
 
 ==== *Relevant Publications:*
 
+. Resilient Tracking with Strongly Malicious Agents \n
+  *Parth Paritosh* and Lance Kaplan \n
+  _Accepted_ at 2026 IEEE Conference on Decision and Control (CDC)
 . Privacy-Preserving Distributed Maximum Likelihood Estimation via State Decomposition \n
   *Parth Paritosh* and Lance Kaplan \n
   IEEE Transactions on Signal Processing, 2026 \[[./Documents/Papers/PP-LK-26-TSP.pdf PDF]\] \[[https://doi.org/10.1109/TSP.2026.3695408 DOI]\]
-
 . Privacy-Preserving Convergent Dynamic Average Consensus via State Decomposition \n
   *Parth Paritosh* and Lance Kaplan \n
   2025 IEEE Statistical Signal Processing Workshop (SSP) \[[https://ieeexplore.ieee.org/document/11073227 Xplore]\] \[[https://doi.org/10.1109/SSP64130.2025.11073227 DOI]\]
